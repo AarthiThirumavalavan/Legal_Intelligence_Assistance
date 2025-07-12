@@ -1,0 +1,7 @@
+streamlit
+groq
+chromadb
+sentence-transformers
+streamlit-authenticator
+pyyaml
+python-dotenv

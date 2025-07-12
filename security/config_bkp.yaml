@@ -1,0 +1,64 @@
+# JUSTIA Legal Assistant Configuration
+app:
+  name: "JUSTIA Legal Assistant"
+  version: "1.0.0"
+  debug: true
+
+# User Authentication
+users:
+  - id: 1
+    username: "aarnew"
+    name: "Aaron New"
+    email: "aaron@example.com"
+    role: "lawyer"
+    password: "your_password_here"  # Plain text (not recommended for production)
+    permissions:
+      - "case_management"
+      - "legal_research"
+      - "document_creation"
+
+  - id: 2
+    username: "admin"
+    name: "System Administrator"
+    email: "admin@example.com"
+    role: "admin"
+    password: "admin_password"
+    permissions:
+      - "manage_users"
+      - "view_logs"
+      - "full_access"
+      - "case_management"
+
+  - id: 3
+    username: "testlawyer"
+    name: "John Doe"
+    email: "john@example.com"
+    role: "lawyer"
+    password: "password"
+
+  - id: 4
+    username: "paralegal1"
+    name: "Jane Smith"
+    email: "jane@example.com"
+    role: "paralegal"
+    password: "password"
+
+# Database Configuration
+database:
+  type: "sqlite"
+  path: "data/justia.db"
+
+# MCP Configuration
+mcp:
+  enabled: true
+  agents:
+    - "intent_agent"
+    - "retrieval_agent"
+    - "memo_agent"
+
+# Logging Configuration
+logging:
+  level: "INFO"
+  file: "logs/justia.log"
+  max_size: "10MB"
+  backup_count: 5

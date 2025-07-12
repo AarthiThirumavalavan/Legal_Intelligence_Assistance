@@ -1,0 +1,102 @@
+[
+  {
+    "case_id": "UK-2023-CR-0045",
+    "title": "R v. Smith",
+    "jurisdiction": "UK",
+    "category": "Criminal",
+    "summary": "The defendant was charged with burglary after CCTV footage showed entry to a residential property. The defense argued the footage was tampered with.",
+    "outcome": "Guilty",
+    "key_legal_issues": ["CCTV admissibility", "Burglary definition"],
+    "year": 2023
+  },
+  {
+    "case_id": "US-2022-CV-1123",
+    "title": "Johnson v. Acme Corp.",
+    "jurisdiction": "US",
+    "category": "Civil",
+    "summary": "Plaintiff alleged workplace discrimination based on age. The company claimed performance issues were the real cause for termination.",
+    "outcome": "Settled",
+    "key_legal_issues": ["Age discrimination", "Employment law"],
+    "year": 2022
+  },
+  {
+    "case_id": "IN-2021-FAM-3321",
+    "title": "Patel v. Patel",
+    "jurisdiction": "India",
+    "category": "Family",
+    "summary": "Dispute over child custody following divorce. The court focused on best interests of the child and parental fitness.",
+    "outcome": "Custody awarded to mother",
+    "key_legal_issues": ["Child custody", "Parental rights"],
+    "year": 2021
+  },
+  {
+    "case_id": "CA-2020-CR-5567",
+    "title": "R v. Lee",
+    "jurisdiction": "Canada",
+    "category": "Criminal",
+    "summary": "Defendant was accused of impaired driving causing injury. Breathalyzer evidence was contested.",
+    "outcome": "Not guilty",
+    "key_legal_issues": ["Impaired driving", "Evidence admissibility"],
+    "year": 2020
+  },
+  {
+    "case_id": "UK-2019-CIV-0911",
+    "title": "Green v. City Council",
+    "jurisdiction": "UK",
+    "category": "Civil",
+    "summary": "Plaintiff sued for negligence after slipping on poorly maintained public property.",
+    "outcome": "Plaintiff awarded damages",
+    "key_legal_issues": ["Negligence", "Public liability"],
+    "year": 2019
+  },
+  {
+    "case_id": "AU-2018-EMP-2302",
+    "title": "Brown v. Retail Ltd.",
+    "jurisdiction": "Australia",
+    "category": "Employment",
+    "summary": "Claim of unfair dismissal related to whistleblower protections. Employer denied allegations.",
+    "outcome": "Dismissal overturned",
+    "key_legal_issues": ["Unfair dismissal", "Whistleblower law"],
+    "year": 2018
+  },
+  {
+    "case_id": "US-2023-IP-1187",
+    "title": "TechCo v. Innovatech",
+    "jurisdiction": "US",
+    "category": "Intellectual Property",
+    "summary": "Patent infringement dispute over software algorithms. Both parties claimed original development.",
+    "outcome": "Pending",
+    "key_legal_issues": ["Patent law", "Software IP"],
+    "year": 2023
+  },
+  {
+    "case_id": "IN-2022-CR-6709",
+    "title": "State v. Kumar",
+    "jurisdiction": "India",
+    "category": "Criminal",
+    "summary": "Accused charged with cybercrime related to data theft. Defense challenged evidence collection process.",
+    "outcome": "Trial ongoing",
+    "key_legal_issues": ["Cybercrime", "Digital evidence"],
+    "year": 2022
+  },
+  {
+    "case_id": "CA-2021-CIV-4120",
+    "title": "Anderson v. Medical Center",
+    "jurisdiction": "Canada",
+    "category": "Medical Malpractice",
+    "summary": "Plaintiff alleged negligence resulting in delayed diagnosis and harm.",
+    "outcome": "Plaintiff awarded damages",
+    "key_legal_issues": ["Medical malpractice", "Negligence"],
+    "year": 2021
+  },
+  {
+    "case_id": "UK-2020-FAM-3345",
+    "title": "Evans v. Evans",
+    "jurisdiction": "UK",
+    "category": "Family",
+    "summary": "Dispute over division of assets following separation. Court considered prenuptial agreement validity.",
+    "outcome": "Assets divided per agreement",
+    "key_legal_issues": ["Asset division", "Prenuptial agreement"],
+    "year": 2020
+  }
+]

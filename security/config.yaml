@@ -1,0 +1,15 @@
+cookie:
+  expiry_days: 7
+  key: your_secret_key_here_make_it_long_and_random_123456789
+  name: justia_auth_cookie
+credentials:
+  usernames:
+    aarthi:
+      email: aarthi@email.com
+      name: aarthithiru
+      password: $2b$12$qwJ41BCtJarfSMgAnep9ruF155CFeEtxOK2uTfD0AFFErSGu6ECgW
+preauthorized:
+  emails:
+  - aarthi@email.com
+roles:
+  aarthi: paralegal
