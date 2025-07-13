@@ -64,8 +64,8 @@ except Exception as e:
     st.stop()
 
 # ✅ Debug: print full user object and role
-st.sidebar.write(f"🧪 Debug User Info: {user}")
-st.sidebar.write(f"🔍 Debug Role: {user.get('role')}")
+# st.sidebar.write(f"🧪 Debug User Info: {user}")
+# st.sidebar.write(f"🔍 Debug Role: {user.get('role')}")
 
 # Main app
 st.title("JUSTIA: Legal Intelligence Assistant (MCP)")
@@ -106,7 +106,7 @@ elif user['role'].lower() == 'lawyer':
 elif user['role'].lower() == 'paralegal':
     st.sidebar.markdown("---")
     st.sidebar.subheader("📝 Paralegal Tools")
-    st.sidebar.write("🧪 Debug: Inside paralegal role block")
+    # st.sidebar.write("🧪 Debug: Inside paralegal role block")
     if st.sidebar.button("📄 Document Review"):
         st.info("Document review tools would be available here")
     if st.sidebar.button("🔍 Basic Research"):
