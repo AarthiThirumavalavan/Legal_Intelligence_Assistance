@@ -6,5 +6,4 @@ Solution:
 
 Solution architecture:
 
-<img width="440" height="540" alt="image" src="https://github.com/user-attachments/assets/81ab4a14-1fe4-420b-86fc-73228db918fb" />
-
+<img width="722" height="766" alt="Screenshot 2025-07-14 at 14 18 21" src="https://github.com/user-attachments/assets/4333e344-b747-4e1b-878a-d7d6938a10a1" />
