@@ -38,7 +38,6 @@ def retrieve_similar_cases(query, k=3):
     emb = model.encode(query).tolist()
     results = collection.query(query_embeddings=[emb], n_results=k)
     
-    # FIXED: Properly parse the retrieved metadata
     cases = []
     for metadata in results["metadatas"][0]:
         case = metadata.copy()
@@ -68,9 +67,9 @@ def test_retrieval():
         print(f"Type of key_legal_issues: {type(case.get('key_legal_issues'))}")
         
         if isinstance(case.get('key_legal_issues'), list):
-            print("✅ SUCCESS: key_legal_issues is properly stored as a list")
+            print("SUCCESS: key_legal_issues is properly stored as a list")
         else:
-            print("❌ ISSUE: key_legal_issues is not a list")
+            print("ISSUE: key_legal_issues is not a list")
     else:
         print("No test cases retrieved")
 

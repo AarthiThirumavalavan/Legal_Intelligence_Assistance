@@ -1,4 +1,3 @@
-# mcp/retrieval_agent.py - FIXED VERSION
 from db.embed import retrieve_similar_cases
 
 class RetrievalAgent:

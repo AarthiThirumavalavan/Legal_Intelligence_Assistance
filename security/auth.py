@@ -12,7 +12,7 @@ def load_config():
         with open(CONFIG_PATH, "r") as f:
             return yaml.safe_load(f)
     except Exception as e:
-        print(f"❌ Failed to load config: {e}")
+        print(f"Failed to load config: {e}")
         return None
 
 def authenticate_user(username: str, password: str):
@@ -24,11 +24,11 @@ def authenticate_user(username: str, password: str):
     roles = config.get("roles", {})
 
     if username not in users:
-        return False, None
+        return False, None #new user case
 
     stored_hash = users[username].get("password", "")
     if not bcrypt.checkpw(password.encode(), stored_hash.encode()):
-        return False, None
+        return False, None # password mismatch
 
     user_info = {
         "username": username,
@@ -43,12 +43,12 @@ def check_user_login():
     if "authenticated" in st.session_state and st.session_state.authenticated:
         return st.session_state.get("user_info")
 
-    st.title("JUSTIA Login")
+    st.title("LIA Login")
 
     username = st.text_input("Username")
     password = st.text_input("Password", type="password")
 
-    if st.button("🔐 Login"):
+    if st.button("Login"):
         success, user_info = authenticate_user(username, password)
         if success:
             st.session_state.authenticated = True
@@ -56,14 +56,14 @@ def check_user_login():
             st.success(f"Welcome, {user_info['name']}!")
             st.rerun()
         else:
-            st.error("❌ Invalid username or password")
+            st.error("Invalid username or password!")
 
     return None
 
 def logout_user():
     st.session_state.authenticated = False
     st.session_state.user_info = {}
-    st.success("👋 You have been logged out.")
+    st.success("You have been logged out.")
     st.rerun()
 
 def get_user_permissions(role):
