@@ -1,3 +1,5 @@
+**Legal Intelligence Assistant **
+
 Problem: Legal teams face high research costs, slow turnaround, and increasing compliance requirements.
 
 Solution: 
